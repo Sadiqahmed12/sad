@@ -28,14 +28,11 @@ public class AccountController {
 
     }
 
-    @GetMapping("/get/{id}")
-    public ResponseEntity<AccountHolder> getAccount(@PathVariable Long id,
-    @RequestBody AccountHolder accountHolder) {
 
-        AccountHolder accountholder  = accountService.getAccountById(id);
+
 
     }
-}
+
 
 
 
